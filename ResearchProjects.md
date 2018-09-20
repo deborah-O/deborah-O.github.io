@@ -2,4 +2,4 @@
 
 Hi 
 
-![Picture of Proj](sqplot.png)
+![Picture of Proj](Figure-1.png)
