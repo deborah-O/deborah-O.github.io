@@ -9,6 +9,8 @@ I am a postgraduate reasearch student at the [University of Leeds](https://www.l
 - Data Assimilation with Agent-Based Modelling for Smart Cities  
 - Economics,Technology
 
+Here is a link to my [research projects.](ResearchProjects.md)
+
 You can use the [editor on GitHub](https://github.com/deborah-O/deborah-O.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
