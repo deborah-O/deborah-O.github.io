@@ -2,4 +2,4 @@
 
 Hi 
 
-![Picture of Proj](Figure-1.png)
+![Picture of Proj](Figure_1.png)
