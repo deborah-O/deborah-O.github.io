@@ -2,7 +2,6 @@
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
 
-![Deborah Olukan's Picture](me.jpg)
 
 
 ## Research Interests
