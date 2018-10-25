@@ -1,13 +1,16 @@
 ## About me
 
-I am a postgraduate reasearch student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
+I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
 
 ![Deborah Olukan's Picture](me.jpg)
 
 
 ## Research Interests
-- Data Assimilation with Agent-Based Modelling for Smart Cities  
-- Economics,Technology
+- Data Assimilation
+- Agent-based modelling
+- Economics
+- GIS
+- Python
 
 Here is a link to my [research projects.](ResearchProjects.md)
 
