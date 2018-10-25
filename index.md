@@ -1,3 +1,31 @@
+
+var Menu = require('menu');
+
+var menu = new Menu;
+
+menu
+.add('Add item')
+.add('Edit item', function(){ console.log('edit'); })
+.add('Remove item', function(){ console.log('remove'); })
+.add('Remove "Add item"', function(){
+  menu.remove('Add item');
+  menu.remove('Remove "Add item"');
+});
+
+menu.on('select', function(item){
+  console.log('selected "%s"', item);
+});
+
+menu.on('Add item', function(){
+  console.log('added an item');
+});
+
+oncontextmenu = function(e){
+  e.preventDefault();
+  menu.moveTo(e.pageX, e.pageY);
+  menu.show();
+};
+
 ## About me
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
