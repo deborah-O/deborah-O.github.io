@@ -1,14 +1,4 @@
 
-<ul class='fade-menu'>
-  <li>
-    Header text
-    <ul>
-      <li>First sub menu item</li>
-      <li>Second sub menu item</li>
-    </ul>
-  </li>
-</ul>
-
 ## About me
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
