@@ -90,7 +90,9 @@ li.dropdown {
 </body>
 
 .center {
-border: 3px solid green;
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
 }
 
 ## About me
