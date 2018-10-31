@@ -93,7 +93,7 @@ li.dropdown {
 
 ## About me
 
-![Image](me1.jpg)
+![Image alt<](me1.jpg)
 
 
 <style>
