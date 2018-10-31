@@ -89,8 +89,9 @@ li.dropdown {
 
 </body>
 
-
+.center {
 border: 3px solid green;
+}
 
 ## About me
 <p align="center">
