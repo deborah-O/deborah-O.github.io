@@ -58,7 +58,7 @@ li.dropdown {
 
 <ul>
   <li><a href="#home">About Me</a></li>
-  <li><a href="https://datacdt.org/">News</a></li>
+  
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">GEOG5995M</a>
     <div class="dropdown-content">
@@ -84,6 +84,7 @@ li.dropdown {
               <a href="#">Assignment 5</a>
     </div>
   </li>
+  <li><a href="https://datacdt.org/">News</a></li>
 </ul>
 
 </body>
