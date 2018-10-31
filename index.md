@@ -99,17 +99,12 @@ li.dropdown {
 </style>
 </head>
 
-<body>
-    <div class="center">
-
-
 ## About me
 <p align="center">
   <img src="me1.jpg">
 </p>
 
-<p> My name is Deborah Olukan and I am a postgraduate researcher at the **[University of Leeds](https://www.leeds.ac.uk/)**, working between the School of Georgraphy and **[Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/)** (LIDA). I am enrolled on _Integrated MSc and PhD in Data Analytics and Society (2 + 2)_ programme, which is co-funded by **[Improbable](https://improbable.io/)** and the **ESRC**. Improbable is a growing tech company with a spectacular reputation , they created SpatialOS a computation platform that enables the creation of massive simulations. Needless to say, it's an honour to work alongside them. My formal project title is **"Data Assimilation for agent-based models** (DUST)", and the aim is to develop computational and mathematical framework for data assimilation using agent-based models (ABMs). I am excited to integrate my Economics and Data Science background into DUST, and hopefully gain some benefical insights. My supervisors Dr Nichollas Malleson and Dr Jonathan Ward are at the forefront of [DUST](https://urban-analytics.github.io/dust/index.html), with such different specialisations and skills, I consider them two pioneers that inspire me everyday. 
-</p>
+My name is Deborah Olukan and I am a postgraduate researcher at the **[University of Leeds](https://www.leeds.ac.uk/)**, working between the School of Georgraphy and **[Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/)** (LIDA). I am enrolled on _Integrated MSc and PhD in Data Analytics and Society (2 + 2)_ programme, which is co-funded by **[Improbable](https://improbable.io/)** and the **ESRC**. Improbable is a growing tech company with a spectacular reputation , they created SpatialOS a computation platform that enables the creation of massive simulations. Needless to say, it's an honour to work alongside them. My formal project title is **"Data Assimilation for agent-based models** (DUST)", and the aim is to develop computational and mathematical framework for data assimilation using agent-based models (ABMs). I am excited to integrate my Economics and Data Science background into DUST, and hopefully gain some benefical insights. My supervisors Dr Nichollas Malleson and Dr Jonathan Ward are at the forefront of [DUST](https://urban-analytics.github.io/dust/index.html), with such different specialisations and skills, I consider them two pioneers that inspire me everyday. 
+
 My research interests broadly include: _Data Assimilation_, _ABMs_, _Economics_ and _Applications of GIS and Python_.
- </body>
- </div>
+
