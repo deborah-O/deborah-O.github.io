@@ -52,14 +52,14 @@ li a:hover:not(.active) {
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
 
 
-
+<body>
 ## Research Interests
 - Data Assimilation
 - Agent-based modelling
 - Economics
 - GIS
 - Python
-
+</body>
 Here is a link to my [research projects.](ResearchProjects.md)
 
 You can use the [editor on GitHub](https://github.com/deborah-O/deborah-O.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
