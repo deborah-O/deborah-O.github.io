@@ -1,7 +1,9 @@
 <body>
   <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/"></a>
+    <a href="#/">Home</a>
+    <a href="#/zh-cn/">About Me</a>
+    <a href="#/zh-cn/">Programming with Social Science</a>
+    <a href="#/zh-cn/">Researching Society and Culture</a>
   </nav>
   <div id="app"></div>
 </body>
