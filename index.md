@@ -1,14 +1,28 @@
-<body>
-  <nav>
-    <a href="#/">Home</a>
-    <a href="#/zh-cn/">About Me</a>
-    <a href="#/zh-cn/">Programming with Social Science</a>
-    <a href="#/zh-cn/">Researching Society and Culture</a>
-  </nav>
-  <div id="app"></div>
-</body>
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 ## About me
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
