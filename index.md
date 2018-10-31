@@ -59,23 +59,23 @@ li.dropdown {
 <ul>
   <li><a href="#home">About Me</a></li>
   <li><a href="https://datacdt.org/">News</a></li>
-  <li class="GEOG5995M Programming for Social Sciences">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">GEOG5995M Programming for Social Sciences</a>
     <div class="dropdown-content">
       <a href="#">Assignment 1</a>
         <a href="#">Assignment 2</a>
     </div>
   </li>
-    <li class="SLSP5301M Researching Society and Culture">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">SLSP5301M Researching Society and Culture</a>
     <div class="dropdown-content">
       <a href="#">Assignment 1 and 2</a>
         <a href="#">Assignment 3</a>
     </div>
   </li>
     </li>
-    <li class="MM8040 Geographical Data Visualisation and Analysis">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">MM8040 Geographical Data Visualisation and Analysis</a>
     <div class="dropdown-content">
       <a href="#">Assignment 1</a>
         <a href="#">Assignment 2</a>
