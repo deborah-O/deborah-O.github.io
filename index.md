@@ -92,12 +92,9 @@ li.dropdown {
 
 
 ## About me
-<section>
     
 ![Image](me1.jpg)
 
-
-</section>
 
 <aside>
 
