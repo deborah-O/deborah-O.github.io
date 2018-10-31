@@ -1,9 +1,5 @@
 <head>
-<LINK href="style.css">
-    </head>
-    
-<body>
-    
+<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -55,6 +51,10 @@ li.dropdown {
     display: block;
 }
 
+</style>
+</head>
+
+<body>
 <ul>
   <li><a href="#home">About Me</a></li>
   
