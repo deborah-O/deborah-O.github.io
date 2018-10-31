@@ -89,11 +89,15 @@ li.dropdown {
 
 </body>
 
+<head>
+<style>
 .center {
     height: 200px;
     position: relative;
     border: 3px solid green;
 }
+</style>
+</head>
 
 ## About me
 <p align="center">
