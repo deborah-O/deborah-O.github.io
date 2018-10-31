@@ -45,6 +45,11 @@ li.dropdown {
     text-align: left;
 }
 
+li a.active {
+    background-color: #FFA500 ;
+    color: white;
+}
+
 .dropdown-content a:hover {background-color: #FFA500}
 
 .dropdown:hover .dropdown-content {
@@ -61,7 +66,7 @@ li.dropdown {
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">GEOG5995M</a>
     <div class="dropdown-content">
-      <a href="GEOG5995MA1.html">Assignment 1</a>
+      <a class = "active" href="GEOG5995MA1.html">Assignment 1</a>
         <a href="#">Assignment 2</a>
     </div>
   </li>
