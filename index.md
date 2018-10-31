@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -7,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FF8C00;
 }
 
 li {
@@ -40,9 +39,9 @@ li a:hover:not(.active) {
 
 <ul>
   <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="#about">About</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
 </ul>
 
 </body>
