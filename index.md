@@ -62,7 +62,7 @@ li.dropdown {
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">GEOG5995M</a>
     <div class="dropdown-content">
-      <a href="GEOG5995MA1.html">Assignment 1</a>
+      <a href="GEOG5995MA1.md">Assignment 1</a>
         <a href="#">Assignment 2</a>
     </div>
   </li>
