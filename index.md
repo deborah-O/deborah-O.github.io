@@ -93,7 +93,7 @@ li.dropdown {
 
 ## About me
 
-<center>![Image](me1.jpg)<center>
+<center>![Image](me1.jpg)</center>
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
 
