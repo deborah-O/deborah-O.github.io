@@ -93,7 +93,8 @@ li.dropdown {
 
 ## About me
 
-![Image alt<](me1.jpg)
+<img style="float: right;" src="me1.jpg">
+
 
 
 <style>
