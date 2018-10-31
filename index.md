@@ -11,7 +11,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: center;
 }
 
 li a, .dropbtn {
