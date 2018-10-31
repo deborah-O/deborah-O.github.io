@@ -1,3 +1,11 @@
+<body>
+  <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/"></a>
+  </nav>
+  <div id="app"></div>
+</body>
+
 
 ## About me
 
