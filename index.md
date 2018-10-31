@@ -57,8 +57,8 @@ li.dropdown {
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
+  <li><a href="#home">About Me</a></li>
+  <li><a href="https://datacdt.org/">News</a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
     <div class="dropdown-content">
