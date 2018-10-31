@@ -1,4 +1,6 @@
-
+<body>
+<head>
+<style>
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,6 +25,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+</body>
+
 ## About me
 
 I am a postgraduate research student at the [University of Leeds](https://www.leeds.ac.uk/), working between the School of Georgraphy and [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk/).
