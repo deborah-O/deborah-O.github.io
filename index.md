@@ -93,7 +93,7 @@ li.dropdown {
 
 ## About me
 
-<img style="float: right;" src="me1.jpg">
+<img style="float: left;" src="me1.jpg">
 
 
 
