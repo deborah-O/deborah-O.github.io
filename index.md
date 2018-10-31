@@ -1,50 +1,4 @@
 
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#333;
-}
-
-li {
-    float: left;
-    border-right: none;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #FF8C00;
-}
-
-.active {
-    background-color: #FF8C00;
-}
-</style>
-</head>
-<body>
-
-<ul>
-  <li><a href="#/">Home</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="ResearchProjects.md">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-
-</body>
 
 
 ## About me
@@ -53,7 +7,7 @@ I am a postgraduate research student at the [University of Leeds](https://www.le
 
 
 <body>
-## Research Interests
+Research Interests
 - Data Assimilation
 - Agent-based modelling
 - Economics
