@@ -6,12 +6,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FF8C00;
+    background-color:#333;
 }
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right: none;
 }
 
 li:last-child {
@@ -31,7 +31,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FF8C00;
 }
 </style>
 </head>
