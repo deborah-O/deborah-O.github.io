@@ -73,6 +73,17 @@ li.dropdown {
         <a href="#">Assignment 3</a>
     </div>
   </li>
+    </li>
+    <li class="MM8040 Geographical Data Visualisation and Analysis">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Assignment 1</a>
+        <a href="#">Assignment 2</a>
+          <a href="#">Assignment 3</a>
+            <a href="#">Assignment 4</a>
+              <a href="#">Assignment 5</a>
+    </div>
+  </li>
 </ul>
 
 </body>
