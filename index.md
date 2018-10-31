@@ -99,7 +99,7 @@ li.dropdown {
 
 <style>
 p {
-    text-align: right;
+    text-align: left;
 }
 </style>
 <body>
