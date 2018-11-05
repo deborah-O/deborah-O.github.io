@@ -88,11 +88,12 @@ li.dropdown {
 </ul>
 
 </body>
-
+</html>
 
     
  
 ## About me
+<html>
 <p align="center">
   <img src="me1.jpg">
 </p>
