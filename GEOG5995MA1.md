@@ -62,12 +62,12 @@ li a.active {
 
 <body>
 <ul>
-  <li><a href="index.md">About Me</a></li>
+  <li><a href="index.html">About Me</a></li>
   
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">GEOG5995M</a>
     <div class="dropdown-content">
-      <a class = "active" href="GEOG5995MA1.html">Assignment 1</a>
+      <a class = "active" href="#">Assignment 1</a>
         <a href="GEOG5995MA2.html">Assignment 2</a>
     </div>
   </li>
