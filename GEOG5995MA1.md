@@ -100,8 +100,8 @@ li a.active {
 
 The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/assessment1/index.html) outlined the aims for the assignment.
 
-'''
+```
 ![image](Webp.net-gifmaker.gif)
 
-'''
+```
 
