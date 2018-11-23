@@ -103,7 +103,8 @@ The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-pyt
 This page displays my code, including a downloadable link, as well as other interesting parts of my Agent-based model (ABM).
 
 The image is a compilation of sequential snapshots of my ABM at different frames.
-![image](Webp.net-gifmaker.gif)
+<center><img src="Webp.net-gifmaker.gif" alt="myagents"></center>
+
 
 
 To begin, I created two files one was my _agentframework_ class and the other was the _model_. This class was called *Agent* which includes a set of behavioural rules governing my agents and their environment. The _model_ contains the environment and additional code that brings the rules and agents to life.
