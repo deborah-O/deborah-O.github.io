@@ -98,12 +98,15 @@ li a.active {
 
 ## Assignment 1
 
-The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/assessment1/index.html) outlined the aims for the assignment.
+The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/assessment1/index.html) outlined the aims for the assignment. The main aim was to create an online portfolio of my practial work. 
 
+This page displays my code, including a downloadable link, as well as other interesting parts of my Agent-based model (ABM).
 
-![image](Webp.net-gifmaker.gif)
+The image is a compilation of sequential snapshots of my ABM at different frames.
+<center>![image](Webp.net-gifmaker.gif)</center>
 
 ```
+
 
 
 ```
