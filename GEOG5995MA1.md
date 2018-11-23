@@ -103,6 +103,7 @@ The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-pyt
 This page displays my code, including a downloadable link, as well as other interesting parts of my Agent-based model (ABM).
 
 The image is a compilation of sequential snapshots of my ABM at different frames.
+
 <center><img src="Webp.net-gifmaker.gif" alt="myagents"></center>
 
 
@@ -227,3 +228,45 @@ def gen_function(b = [0]):
                '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until
                   the condition is satisfied.'''
 ```
+The full code for both the _agentframework_ and _model_ will be linked down below.
+
+Once my model was working, I created tests to ensure they would always work. The tests were created using *pytest*.
+
+I created an additional file to test each function within my _agentframework_. Below are the examples for *move* and *eat*.
+
+```
+'''Defening a class to test the eat function'''    
+def test_eat():
+    '''The agent created above somewhere in the environment that has 100 units of food'''
+    agents[0].environment[agents[0].columny][agents[0].columnx] = 100
+    '''The agents current store is 0'''
+    agents[0].store = 0
+    '''This makes the agent eat'''
+    agents[0].eat()
+    
+    '''Based on my original eat function, if the environment has more than 10  units of food, it should decrease by 10
+       and add 10 to the agents store. There the environment should now have 90 units of food and the store should have 10.'''
+    assert agents[0].environment[agents[0].columny][agents[0].columnx] == 90
+    assert agents[0].store == 10
+    '''If the test passes then the eat function works'''
+    
+    '''This tests if the environment works correctly, if the test passes then the function works'''
+    agents[0].environment[agents[0].columny][agents[0].columnx] = 10
+    agents[0].eat()
+
+    assert agents[0].environment[agents[0].columny][agents[0].columnx] == 10
+    
+def test_move():
+     '''Agent 0 is at (0,0)'''
+     agents[0].columny = 0 
+     agents[0].columnx = 0
+     '''Agent moves according to condition in framework'''
+     agents[0].movement()
+     '''Agent could only ever land on (1,99)(99,1), therefore test passes'''
+     assert agents[0].columny == 1 or agents[0].columny == 99
+     assert agents[0].columnx == 1 or agents[0].columnx == 99
+    
+pytest.main()    
+
+```
+
