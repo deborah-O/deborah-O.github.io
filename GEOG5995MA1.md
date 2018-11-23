@@ -157,9 +157,9 @@ In the _agentframework_ file, the next step was to define how my agents could _m
 
 ```
 def movement(self):
-        '''This statement generates a random number with a condition. If that it is less than 0.5 then 1 is added to 
-           the value (y,x) co-ords. If its more than 0.5 then 1 is taken away. The %100 creates an boundary that 
-           that ensures agents return back into frame if they fall off the edges.
+        '''This statement generates a random number with a condition. If that it is less than 0.5 then 1 is
+           added to the value (y,x) co-ords. If its more than 0.5 then 1 is taken away. The %100 creates 
+           a boundary that ensures agents return back into frame if they fall off the edges.
         if random.random( ) <0.5:
             self.columny = (self.columny + 1) % 100
         else:
@@ -185,7 +185,7 @@ Next, I defined an _eat_ function. This would make agents "eat" or take away fro
 
 ```
 def eat(self):
-        '''This IF statment states that within the environment, as (y,x) co-ordinations, if it has more than 10 
+        '''This IF statment states that within the environment, as (y,x) co-ordinations,if it has more than 10 
         resources, and the agents personal store is equal or less than 100 - then the environment will lose 10
         resources and yhe agents personal store increases by 10'''
         if self.environment[self.columny][self.columnx] > 10 and self.store <= 100:
@@ -217,10 +217,12 @@ def gen_function(b = [0]):
     for i in range(num_of_agents):
            if agents[i].store == 100:
                break
-               '''This function creates a random integer, a, so for every agent, once their store reaches 100 resources, they stop                         moving.'''
+               '''This function creates a random integer, a, so for every agent, once their store reaches 
+               100 resources, they stop moving.'''
            else:         
                a = a + 1
                yield a			# Returns control and waits next call.
                # print ("I'm full!")
-               '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until the condition is satisfied.'''
+               '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until
+                  the condition is satisfied.'''
 ```
