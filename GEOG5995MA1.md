@@ -197,6 +197,7 @@ def eat(self):
 Two additional functions were created named _distance between_ and _share with neighbours_, in the _agentframework_ file 
 
 _distance between_ calculates thes distance between agents and prints how far apart they are:
+
 ```
 '''Checking how far agent 0 is from agent 1'''
 agents[0].distance_between(agents[1])
@@ -205,4 +206,21 @@ We're this far apart: 75.16648189186454
 ```
 
 _share with neighbours_ takes the agentlist as well as the distance between each agent and forces them to share based on a condition.
-The condition is if the neighbourhood is greater than the distance between each agent, they must share. Essentially, any agent that is within the radius of 20 of any other agent, they must share. 
+The condition is if the neighbourhood is greater than the distance between each agent, they must share. Essentially, any agent that is within the radius of 20 with any other agents, they must share. 
+
+
+In _model_ I visualise the agents coming to life, this is the image above. But to further develop the model, I added a *gen_function*.This function acts as a stopping condition. At this point my agents stop eating once they reach 100 resources, but they still move and if they get close to eachother they must share and their stores reduce; the cycle ensues. 
+
+```
+def gen_function(b = [0]):
+    a = 0
+    for i in range(num_of_agents):
+           if agents[i].store == 100:
+               break
+               '''This function creates a random integer, a, so for every agent, once their store reaches 100 resources, they stop                         moving.'''
+           else:         
+               a = a + 1
+               yield a			# Returns control and waits next call.
+               # print ("I'm full!")
+               '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until the condition is satisfied.
+```
