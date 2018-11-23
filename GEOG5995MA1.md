@@ -103,11 +103,41 @@ The project [brief](http://www.geog.leeds.ac.uk/courses/computing/study/core-pyt
 This page displays my code, including a downloadable link, as well as other interesting parts of my Agent-based model (ABM).
 
 The image is a compilation of sequential snapshots of my ABM at different frames.
-<center>![image](Webp.net-gifmaker.gif)</center>
+![image](Webp.net-gifmaker.gif)
+
+
+To begin, I created my _agentframwork_ class. This class was called *Agent* which includes a set of behavioural rules governing my agents and their environment.
+
+I started with the initialisation function:
 
 ```
+import random
 
+class Agent:
 
+def __init__(self, environment, agentlist):
+        '''The init function serves as the constructor and self represents the instance of the object itself.
+           So here I'm constructing an environment and a list of agents''' 
+        self.columny = (random.randint(0,99))
+        self.columnx = (random.randint(0,99))
+        '''I set the generation of (y,x) columns to random and between 0-99''' 
+        self.environment = environment
+        self.agentlist = agentlist
+        self.store = 0
+        '''The objects: environment, agentlist and store were also created at this point'''
+```
+Following the initialisation, I have a starting ground and can begin to build after the creation of my objects. 
+
+Before we proceed, I'll define all the objects used in this ABM for clarity.
+
+| Object        | Definition    | 
+| ------------- |:-------------:| 
+| Environment   |  |
+| Agentlist     | A list of all agents within my model |
+| columny/x     | Columns which include a list of randomly generated numbers between 0-99  |
+| Store         | Storage of resources agents accumulate from the environment or neighbours|
+|    |  |
+
+The next step was to define how my agents could move in the Environment.
 
 ```
-
