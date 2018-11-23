@@ -235,7 +235,7 @@ Once my model was working, I created tests to ensure they would always work. The
 I created an additional file to test each function within my _agentframework_. Below are the examples for *move* and *eat*.
 
 ```
-'''Defening a class to test the eat function'''    
+'''Defining a class to test the eat function'''    
 def test_eat():
     '''The agent created above somewhere in the environment that has 100 units of food'''
     agents[0].environment[agents[0].columny][agents[0].columnx] = 100
