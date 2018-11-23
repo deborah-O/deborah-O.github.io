@@ -222,5 +222,5 @@ def gen_function(b = [0]):
                a = a + 1
                yield a			# Returns control and waits next call.
                # print ("I'm full!")
-               '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until the condition is satisfied.
+               '''If the agents store is not equal to 100 resouces, then 1 is added to a every time until the condition is satisfied.'''
 ```
